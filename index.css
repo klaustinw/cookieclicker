@@ -15,7 +15,7 @@
 
 }
 
-#score
+#scoreText
 {
     margin-bottom: 100px;
 }
@@ -24,8 +24,8 @@
 {
     float: right;
     size: auto;
-    border-radius: 3px;
-    border: white;
+    border-style: double;
+    margin-right: 300px;
 }
 
 #shopBG *
