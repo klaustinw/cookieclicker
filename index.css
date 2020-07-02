@@ -1,0 +1,34 @@
+*
+{
+    margin: 0;
+    text-align: center;
+    background-color: burlywood;
+}
+
+#pageHeader
+{
+    margin-top: 10px;
+}
+
+#pageTitle
+{
+
+}
+
+#infoBox
+{
+    margin-bottom: 100px;
+}
+
+#shopBox
+{
+    float: right;
+    size: auto;
+    border-radius: 3px;
+    border: white;
+}
+
+#shopBG *
+{ 
+    background-color: darkolivegreen;
+}
