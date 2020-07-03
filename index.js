@@ -8,7 +8,7 @@ function image()
 {
     varScore += 1;
     newScoreText = varScore;
-    if (varScore >= 1)
+    if (varScore <= 1)
     {
         newScoreText += " Cookie";
     }
@@ -27,7 +27,7 @@ function shop()
         console.log("ADD 1 STAR, GET 2 MORE TO WIN THE GAME")
         varScore -= starPrice
         starPrice += 25;
-        document.getElementById("buyStar") = `Star cost ${starPrice} cookies`
+        document.getElementById("buyStar").innerText = `Star cost ${starPrice} cookies`
     }
 
     else
